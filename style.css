@@ -5,27 +5,128 @@
     padding: 0;
 }
 
-/*header {
-    background: white;
-}
-
 body {
-    background: #0D0003;
+    background-color: #ffffff;
+    color: #580113;
 }
 
-footer {
-    background: white;
-}
-
-nav-logo {
-    background: ;
-}*/
-
-row {
+.row {
     max-width: 1280px;
     margin: 0 auto;
 }
 
-flex-container {
+.flex-container {
     display: flex;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color: #fcfcfc;
+}
+
+.nav-links {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 35px 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-links a {
+    color: #BF0402;
+}
+
+.dropdown {
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+}
+
+.dropdown a {
+    color: #BF0402;
+}
+
+.portfolio-content {
+    visibility: hidden;
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 3px 6px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.dropdown:hover .portfolio-content {
+    background-color: #fff;
+    visibility: visible;
+    display: block;
+}
+
+.portfolio-content li {
+    width: 180px;
+    border-top: solid 1px #efefef;
+    transition: background 0.3s;
+}
+
+.portfolio-content li:hover,
+.portfolio-content li:active {
+    background-color: #f6f6f6;
+}
+
+.portfolio-content a {
+    display: block;
+    width: 180px;
+    padding: 12px 15px;
+    color: #BF0402;
+    font-size: 15px;
+}
+
+.nav-links a {
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #fcfcfc;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer li {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #BF0402;
+    padding-bottom: 7px;
+    padding-right: 30px;
+}
+
+.flex-cr {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    background-image: linear-gradient(rgba(255,255,255,0.2) rgba(255,255,255,0.2)url(../jmain.jpg));
+    height: 89vh;
+}
+
+.container h2 {
+    position: absolute;
+    top: 40vh;
+    left: 40vw;
 }
