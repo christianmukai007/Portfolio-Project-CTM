@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Photography</title>
@@ -9,32 +10,74 @@
 </head>
 
 <body>
-    <header>
-        <nav class="nav">
-            <div class="row flex-container">
-                <div class="nav-logo">
-                    <img class="logo" src="images/logo.png" alt="Logo">
+    <div class="container5">
+        <header>
+            <nav class="nav">
+                <div class="row flex-container">
+                    <div class="nav-logo">
+                        <img class="logo" src="images/logo.png" alt="Logo">
+                    </div>
+                    <div class="nav-links">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="aboutme.html">About Me</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <ul>
+                            <li class="dropdown">
+                                <a href="#" class="portfolio">Portfolio</a>
+                                <ul class="portfolio-content">
+                                    <li><a href="webprojects.html">Web Projects</a></li>
+                                    <li><a href="writing.html">Writing</a></li>
+                                    <li><a href="photos.html">Photography</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <li><a href="contact.html">Contact</a></li>
+                    </div>
                 </div>
-                <div class="nav-links">
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="aboutme.html">About Me</a></li>
-                    <li><a href="resume.html">Resume</a></li>
-                    <ul>
-                        <li class="dropdown">
-                            <a href="#" class="portfolio">Portfolio</a>
-                            <ul class="portfolio-content">
-                                <li><a href="webprojects.html">Web Projects</a></li>
-                                <li><a href="writing.html">Writing</a></li>
-                                <li><a href="photos.html">Photography</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <li><a href="contact.html">Contact</a></li>
-                </div>
-            </div>
-        </nav>
-    </header>
-
+            </nav>
+            <h2>Photography</h2>
+        </header>
+    </div>
+    <div class="carousel-container">
+        <div class="slides f">
+            <div class="slidenumber">1</div>
+            <img src="images/photowheel1.jpg" alt="pw1">
+        </div>
+        
+        <div class="slides f">
+            <div class="slidenumber">2</div>
+            <img src="images/photowheel2.JPG" alt="pw2">
+        </div>
+        
+        <div class="slides f">
+            <div class="slidenumber">3</div>
+            <img src="images/photowheel3.JPG" alt="pw3">
+        </div>
+        
+        <div class="slides f">
+            <div class="slidenumber">4</div>
+            <img src="images/photowheel4.JPG" alt="pw4">
+        </div>
+        
+        <div class="slides f">
+            <div class="slidenumber">5</div>
+            <img src="images/photowheel5.JPG" alt="pw5">
+        </div>
+        
+        <div class="slides f">
+            <div class="slidenumber">6</div>
+            <img src="images/photowheel6.JPG" alt="pw6">
+        </div>
+        
+        <a class="previous" onclick="fSlides(-1)">&#9887;</a>
+        <a class="foward" onclick="fSlides(1)">&#9886;</a>
+    </div>
+    
+    <div class="align-text:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
 
     <footer class="flex-cr">
         <div class="empty"></div>
@@ -56,4 +99,5 @@
         </div>
     </footer>
 </body>
+
 </html>
