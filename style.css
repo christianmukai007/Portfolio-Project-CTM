@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+.logo {
+    height: 70%;
+    margin-top: 25px;
+}
+
 body {
     background-color: #ffffff;
     color: #580113;
@@ -20,7 +25,6 @@ body {
 }
 
 .nav {
-    height: 100px;
     width: 100%;
     position: fixed;
     background-color: #fcfcfc;
@@ -96,6 +100,7 @@ footer {
 
 footer ul li {
     list-style: none;
+    margin-left: 100px;
 }
 
 footer li {
@@ -108,14 +113,12 @@ footer a {
     text-decoration: none;
     color: #BF0402;
     padding-bottom: 7px;
-    padding-right: 30px;
 }
 
 .flex-cr {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .container {
@@ -282,26 +285,58 @@ div.listyle ul {
     padding: 10px 20px;
 }
 
-/*This is for the photography carousel*/
-
-#photo img {
-    width: 100%;
-}
-
-/*
-.slides {
+.display {
     display: none;
 }
-*/
 
-.previous, .foward {
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: #2189C6;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+
+.flex {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.deimg {
+    height: 30vw;
+    padding-top: 2%;;
+}
+
+.deimg2 {
+    width: 45vw;
+    padding-top: 20%;
+}
+
+.deimg4 {
+    height: 45vw;
+    padding-top: 10px;
+}
+
+.deimg3 {
+    height: 35vw;
+    padding-top: 5%;
+}
+
+.writetext {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.read {
+    margin: auto 0;
+    margin-left: 45%;
+}
+
+p {
+    text-indent: 40px;
+}
+
+.words {
+    margin-left: 15%;
+}
+
+.webtext {
+    width: 80%;
+}
+
+.size {
+    font-size: 22px;
 }

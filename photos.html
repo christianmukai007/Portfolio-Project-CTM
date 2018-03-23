@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Photography</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
+    <script src="script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
 </head>
 
-<body>
+<body onload="slideShow()">
     <div class="container5">
         <header>
             <nav class="nav">
@@ -38,56 +39,55 @@
             <h2>Photography</h2>
         </header>
     </div>
-    <div class="carousel-container">
+    <div id="slides" class="carousel-container" onload="slideShow()">
         <div class="slides f">
             <div class="slidenumber">1</div>
             <img src="images/photowheel1.jpg" alt="pw1">
         </div>
-        
-        <div class="slides f">
+
+        <div class="display">
             <div class="slidenumber">2</div>
             <img src="images/photowheel2.JPG" alt="pw2">
         </div>
-        
-        <div class="slides f">
+
+        <div class="display">
             <div class="slidenumber">3</div>
             <img src="images/photowheel3.JPG" alt="pw3">
         </div>
-        
-        <div class="slides f">
+
+        <div class="display">
             <div class="slidenumber">4</div>
             <img src="images/photowheel4.JPG" alt="pw4">
         </div>
-        
-        <div class="slides f">
+
+        <div class="display">
             <div class="slidenumber">5</div>
             <img src="images/photowheel5.JPG" alt="pw5">
         </div>
-        
-        <div class="slides f">
+
+        <div class="display">
             <div class="slidenumber">6</div>
             <img src="images/photowheel6.JPG" alt="pw6">
         </div>
-        
-        <a class="previous" onclick="fSlides(-1)">&#9887;</a>
+
+        <div class="display">
+            <div class="slidenumber">7</div>
+            <img src="images/hdrvistafountain.jpg" alt="pw7">
+        </div>
+
+        <!--        <a class="previous" onclick="fSlides(-1)">&#9887;</a>
         <a class="foward" onclick="fSlides(1)">&#9886;</a>
     </div>
-    
+
     <div class="align-text:center">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span> -->
     </div>
 
-    <footer class="flex-cr">
-        <div class="empty"></div>
+    <footer>
         <div>
-            <p>
-                ©2018 Christian Mukai
-            </p>
-        </div>
-        <div>
-            <ul>
+            <ul class="flex-cr">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="aboutme.html">About Me</a></li>
                 <li><a href="resume.html">Resume</a></li>
@@ -96,6 +96,11 @@
                 <li><a href="photos.html">Photography</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+        </div>
+        <div class="flex">
+            <p>
+                ©2018 Christian Mukai
+            </p>
         </div>
     </footer>
 </body>
