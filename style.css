@@ -176,6 +176,7 @@ div.listyle ul {}
 
 .info {
     padding-left: 30px;
+    padding-bottom: 2%;
 }
 
 .container1 {
@@ -335,6 +336,7 @@ p {
 .words {
     margin-left: 15%;
     padding-bottom: 20px;
+    font-size: 17px;
 }
 
 .webtext {
@@ -373,3 +375,79 @@ p {
 .contacth {
     margin-left: 5%;
 }
+
+.thanks {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin-left: 33%;
+}
+
+.pwords {
+    width: 40%;
+    margin-left: 33%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.clientForm {
+    margin-top: 10px;
+    margin-left: 44%;
+}
+
+.lor {
+    display: inherit;
+    width: 100%;
+}
+
+div.lor h3 {
+    margin-left: 900px;
+}
+
+.letters {
+    width: 40%;
+    margin-left: 33%;
+    padding-bottom: 15px;
+}
+
+div.letters a {
+    text-decoration: none;
+    color: #2189C6;
+    border: solid 1px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+div.letters a:hover {
+    color: #BF0402;
+}
+
+form button {
+    color: #2189C6;
+    background-color: #050203;
+}
+
+form button:hover {
+    color: #BF0402;
+}
+
+p.words a {
+    text-decoration: none;
+    color: #2189C6;
+}
+
+.read {
+    text-decoration: none;
+    color: #2189C6;
+    border: solid 1px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.read:hover {
+    color: #BF0402;
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 480px) {}

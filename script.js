@@ -78,3 +78,4 @@ function slideShowLeft() {
     }
     count--;
 }
+
