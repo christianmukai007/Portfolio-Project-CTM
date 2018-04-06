@@ -95,8 +95,6 @@ body {
     text-decoration: none;
 }
 
-@media screen and (max-width: 1920px) {
-
     footer {
         background-color: #fcfcfc;
         width: 100%;
@@ -462,11 +460,10 @@ body {
     }
 
     .pom {
-        height: 38vh;
-        width: 27%;
+        height: 36vh;
+        width: 28%;
         padding-top: 15px;
     }
-}
 
 @media screen and (max-width: 1024px) {
     footer {
@@ -547,7 +544,6 @@ body {
     .deimg2 {
         width: 90%;
         padding-top: 5%;
-        max-width:
     }
 
     .deimg3 {

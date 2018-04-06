@@ -44,20 +44,20 @@
             Thank you for taking the time to view my portfolio. I’m glad that you spend the time to get to know me.If you would like to contact me or get to know me even better, please fill out the form below and I will answer it as soon as possible.
         </p>
     </div>
-    <form action="" class="clientForm">
+    <form name="contactForm" class="clientForm" onsubmit="return contactValidation">
         <label for="fname">Full Name: </label>
         <br>
-        <input name="fname" type="text">
+        <input name="fname" type="text" required>
         <br>
         <label for="email">Email: </label>
         <br>
-        <input type="email">
+        <input type="email" onsubmit="periodCheck()" pattern="\S+@\S+\.\w+" id="checkPeriod" required>
         <br>
         <label for="textarea">Message: </label>
         <br>
-        <textarea name="textarea" id="" cols="25" rows="8"></textarea>
+        <textarea name="textarea" id="" cols="25" rows="8" required></textarea>
         <br>
-        <button type="submit">Send</button>
+        <button type="submit" value="submit">Send</button>
         <button type="reset">Reset</button>
     </form>
 
